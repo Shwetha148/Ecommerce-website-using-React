@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+.navbar {
+  background:rgb(154, 252, 244);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  
+  
+}
+
+#navlist{
+    text-decoration: none;;
+    display: flex;
+    gap: 50px; 
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    height: 50px;
+    width: 90px;
+    position: absolute;
+    right: 930px;
+}
+
+#amberger{
+    position: absolute;
+    left: 950px;
+    color: black;
+}
+
+#hero-image{
+  height: 400px;
+  width: 100%;
+}
+
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 220px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.product-image {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
